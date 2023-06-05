@@ -1,0 +1,53 @@
+aside {
+  padding: 1rem 1.5rem;
+  border-right: 1px solid black;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: 15vw;
+
+  .functional {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+      font-size: 1rem;
+      font-family: Inter;
+      text-align: center;
+    }
+
+    .insertInput {
+      margin-block: 1vh;
+      height: 3vh;
+    }
+
+    textarea {
+      font-size: 0.8rem;
+      padding: 2%;
+      margin-block: 2rem;
+      border-radius: 5px;
+      resize: none;
+    }
+
+    button {
+      width: 50%;
+      height: 2.5rem;
+      background-color: rgb(0, 102, 255);
+      color: white;
+      font-size: 1rem;
+      font-family: Inter;
+      border-radius: 10px;
+      border-color: transparent;
+      cursor: pointer;
+      transition: 0.4s;
+      margin-bottom: 10vh;
+
+      &:hover {
+        transform: scale(97%);
+      }
+    }
+  }
+}
